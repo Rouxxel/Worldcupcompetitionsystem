@@ -1,0 +1,676 @@
+{
+  "teams": [
+    {
+      "country": "Qatar",
+      "results": {
+        "MP": 3,
+        "W": 0,
+        "D": 0,
+        "L": 3,
+        "GF": 1,
+        "GA": 7,
+        "GD": -6,
+        "Pts": 0
+      },
+      "groupMatches": [0, 0, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Senegal",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 5,
+        "GA": 4,
+        "GD": 1,
+        "Pts": 6
+      },
+      "groupMatches": [1, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Ecuador",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 4,
+        "GA": 3,
+        "GD": 1,
+        "Pts": 4
+      },
+      "groupMatches": [0, "-", 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Netherlands",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 1,
+        "L": 0,
+        "GF": 5,
+        "GA": 1,
+        "GD": 4,
+        "Pts": 7
+      },
+      "groupMatches": [1, "-", 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "England",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 1,
+        "L": 0,
+        "GF": 9,
+        "GA": 2,
+        "GD": 7,
+        "Pts": 7
+      },
+      "groupMatches": [1, "-", 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Wales",
+      "results": {
+        "MP": 3,
+        "W": 0,
+        "D": 1,
+        "L": 2,
+        "GF": 1,
+        "GA": 6,
+        "GD": -5,
+        "Pts": 1
+      },
+      "groupMatches": [0, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Iran ",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 0,
+        "L": 2,
+        "GF": 4,
+        "GA": 7,
+        "GD": -3,
+        "Pts": 3
+      },
+      "groupMatches": [0, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "USA  ",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 2,
+        "L": 0,
+        "GF": 2,
+        "GA": 1,
+        "GD": 1,
+        "Pts": 5
+      },
+      "groupMatches": [1, "-", "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Poland",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 2,
+        "GA": 2,
+        "GD": 0,
+        "Pts": 4
+      },
+      "groupMatches": [0, 1, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Argentina",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 5,
+        "GA": 2,
+        "GD": 3,
+        "Pts": 6
+      },
+      "groupMatches": [1, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Mexico",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 2,
+        "GA": 3,
+        "GD": -1,
+        "Pts": 4
+      },
+      "groupMatches": [1, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Saudi arabia",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 0,
+        "L": 2,
+        "GF": 3,
+        "GA": 5,
+        "GD": -2,
+        "Pts": 3
+      },
+      "groupMatches": [0, 0, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "France",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 6,
+        "GA": 3,
+        "GD": 3,
+        "Pts": 6
+      },
+      "groupMatches": [0, 1, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Denmark",
+      "results": {
+        "MP": 3,
+        "W": 0,
+        "D": 1,
+        "L": 2,
+        "GF": 1,
+        "GA": 3,
+        "GD": -2,
+        "Pts": 1
+      },
+      "groupMatches": [0, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Tunisia",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 1,
+        "GA": 1,
+        "GD": 0,
+        "Pts": 4
+      },
+      "groupMatches": [1, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Australia",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 3,
+        "GA": 4,
+        "GD": -1,
+        "Pts": 6
+      },
+      "groupMatches": [1, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Japan",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 4,
+        "GA": 3,
+        "GD": 1,
+        "Pts": 6
+      },
+      "groupMatches": [1, 0, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Spain",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 9,
+        "GA": 3,
+        "GD": 6,
+        "Pts": 4
+      },
+      "groupMatches": [0, "-", 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Costa rica",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 0,
+        "L": 2,
+        "GF": 3,
+        "GA": 11,
+        "GD": -8,
+        "Pts": 3
+      },
+      "groupMatches": [0, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Germany",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 6,
+        "GA": 5,
+        "GD": 1,
+        "Pts": 4
+      },
+      "groupMatches": [1, "-", 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Canada",
+      "results": {
+        "MP": 3,
+        "W": 0,
+        "D": 0,
+        "L": 3,
+        "GF": 2,
+        "GA": 7,
+        "GD": -5,
+        "Pts": 0
+      },
+      "groupMatches": [0, 0, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Croatia",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 2,
+        "L": 0,
+        "GF": 4,
+        "GA": 1,
+        "GD": 3,
+        "Pts": 5
+      },
+      "groupMatches": ["-", 1, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Belgium",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 1,
+        "GA": 2,
+        "GD": -1,
+        "Pts": 4
+      },
+      "groupMatches": ["-", 0, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Morocco",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 1,
+        "L": 0,
+        "GF": 4,
+        "GA": 1,
+        "GD": 3,
+        "Pts": 7
+      },
+      "groupMatches": [1, 1, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Serbia",
+      "results": {
+        "MP": 3,
+        "W": 0,
+        "D": 1,
+        "L": 2,
+        "GF": 5,
+        "GA": 8,
+        "GD": -3,
+        "Pts": 1
+      },
+      "groupMatches": [0, "-", 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Switzerland",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 4,
+        "GA": 3,
+        "GD": 1,
+        "Pts": 6
+      },
+      "groupMatches": [1, 0, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Cameroon",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 4,
+        "GA": 4,
+        "GD": 0,
+        "Pts": 4
+      },
+      "groupMatches": [1, "-", 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Brazil",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 3,
+        "GA": 1,
+        "GD": 2,
+        "Pts": 6
+      },
+      "groupMatches": [0, 1, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Ghana",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 0,
+        "L": 2,
+        "GF": 5,
+        "GA": 7,
+        "GD": -2,
+        "Pts": 3
+      },
+      "groupMatches": [0, 1, 0],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Uruguay",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 2,
+        "GA": 2,
+        "GD": 0,
+        "Pts": 4
+      },
+      "groupMatches": [1, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "South korea",
+      "results": {
+        "MP": 3,
+        "W": 1,
+        "D": 1,
+        "L": 1,
+        "GF": 4,
+        "GA": 4,
+        "GD": 0,
+        "Pts": 4
+      },
+      "groupMatches": [1, 0, "-"],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    },
+    {
+      "country": "Portugal",
+      "results": {
+        "MP": 3,
+        "W": 2,
+        "D": 0,
+        "L": 1,
+        "GF": 6,
+        "GA": 4,
+        "GD": 2,
+        "Pts": 6
+      },
+      "groupMatches": [0, 1, 1],
+      "players": {
+        "Goalkeepers": [],
+        "Defenders": [],
+        "Midfielders": [],
+        "Forwards": []
+      },
+      "worldCups": []
+    }
+  ]
+}
