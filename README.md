@@ -1,5 +1,5 @@
 # Worldcupcompetitionsystem
- Another assignment but from my first semester
+ Final project but from my first semester
 
 I remember doing this assignment with a friend of my course and other peers in my class in my first ever semester in 
 university, it was nice but it is so obvious that i have never used Python before and that most of my knowledge was 
