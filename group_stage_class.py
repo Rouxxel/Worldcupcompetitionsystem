@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import random
-from TeamClass import *
+from team_class import TeamClass, push_data_team
 
 class GroupStage:
     #group structure <<dict of group with teamObjects>> key=group_name : value= {key=country: value=teamObject } 
@@ -38,7 +38,7 @@ class GroupStage:
                 scores = list(self.group[each].values())
     
                 for n in range(0,4):
-                    matches = self.group[each][names[n]].printMatches()
+                    matches = self.group[each][names[n]].print_matches()
                     #printing table 
                     print(f'{names[n]} : \t{list(self.group[each][names[n]].results.values())} \t {matches[0]} {matches[1]} {matches[2]}')
             
@@ -52,14 +52,14 @@ class GroupStage:
             for _ in range(1,5):
                 print(f'Insert the name of the team {_}/{4}: ')
                 team_name = input('').capitalize()
-                list_of_teams[team_name] = Team(team_name) #create the team object and store in a dict 
-                self.team_list[team_name] = Team(team_name) 
+                list_of_teams[team_name] = TeamClass(team_name) #create the team object and store in a dict 
+                self.team_list[team_name] = TeamClass(team_name) 
 
             self.group[each] = list_of_teams #insert the dict of 4 teams in the key for each group 
             list_of_teams = {}
 
         for each in self.team_list:
-            pushData_team(self.team_list[each], file_path) #store the data in json file <<dict of objects>> key=country value=teamObject 
+            push_data_team(self.team_list[each], file_path) #store the data in json file <<dict of objects>> key=country value=teamObject 
     
     #create random groups giving a <<dict of objects>> key=country : value=teamObject 
     def random_Groups(self, data_teams):        
@@ -100,7 +100,7 @@ class GroupStage:
     def saving_data(self, group_teams, file_path):
         for group in list(group_teams.keys()):
             for each in list(group_teams[group].keys()):
-                pushData_team(group_teams[group][each], file_path)
+                push_data_team(group_teams[group][each], file_path)
     
     #method that allow user input each match or do it randomly 
     #group_teams = <<dict of group with teamObjects>> key=group_name : value= {key=country: value=teamObject } 
@@ -108,7 +108,7 @@ class GroupStage:
     def add_scores(self, group_teams, option): #function to play 3 games max on each team 
         
         game = 1
-        match_order  = [[0,1,2,3],[0,2,1,3],[0,3,1,2]] #secuence to play just 2 teams from each 2 groups by day. 
+        match_order  = [[0,1,2,3],[0,2,1,3],[0,3,1,2]] #sequence to play just 2 teams from each 2 groups by day. 
         order = 0
         while order < 3: #play 3 rounds each team 
             position = 0
@@ -145,7 +145,7 @@ class GroupStage:
                                 score_team2 = int(score_team2)
                                 flag = False #close loop validation 
                     
-                    #adding each score to the result attributes of each team calling the methods of the teamClass 
+                    #adding each score to the result attributes of each team calling the methods of the TeamClass 
                     team_1.add_GF(score_team_1)
                     team_1.add_GA(score_team2)
                     team2.add_GF(score_team2)
@@ -153,15 +153,15 @@ class GroupStage:
 
                     if score_team_1 == score_team2:
 
-                        team_1.add_Draw()
-                        team2.add_Draw()
+                        team_1.add_draw()
+                        team2.add_draw()
 
                     elif score_team_1 > score_team2:
-                        team_1.add_Win()
-                        team2.add_Lose()
+                        team_1.add_win()
+                        team2.add_lose()
                     else:
-                        team2.add_Win()
-                        team_1.add_Lose()
+                        team2.add_win()
+                        team_1.add_lose()
 
                     position+=2 #increase 2 step to the right to just allow a team play just one game by round  
                     game+=1
@@ -188,7 +188,7 @@ class GroupStage:
         #function to sort the data by the option 
         #option = 'Pts' or 'GD' or 'GF' 
         #list_name, list of teams that have the same amount of points [in the chosen option]
-        #group_name, the name of  the group the evalue 'GroupA', 'GroupB'..'GroupH'
+        #group_name, the name of  the group the evaluate 'GroupA', 'GroupB'..'GroupH'
         #group_list = <<dict of group with teamObjects>> key=group_name : value= {key=country: value=teamObject } 
         def dic_sort(group_name, group_list, list_name, option):
             option_dict = {}
@@ -265,10 +265,10 @@ class GroupStage:
             #print(new_list)
             new_group_list = {}
             i = 0
-            for eachTeam in new_list: #loop in the sorted list of the 4 teams 
-                new_group_list[eachTeam] = self.group[each][eachTeam] #insert the value of each team in order (sorted)
+            for each_team in new_list: #loop in the sorted list of the 4 teams 
+                new_group_list[each_team] = self.group[each][each_team] #insert the value of each team in order (sorted)
                 if i <2:
-                    finalists_16_list.append(eachTeam) #append the first 2 teams of each group 
+                    finalists_16_list.append(each_team) #append the first 2 teams of each group 
                     i+=1
 
             self.group[each] = new_group_list #update the dict of teams on each group 
