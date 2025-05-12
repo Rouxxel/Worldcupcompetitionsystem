@@ -8,7 +8,7 @@ class FinalRound:
     goals, penalties, and determining the champion and sub-champion teams.
     """
 
-    def __init__(self, c1_goals=0, c2_goals=0, c1_penalties=0, c2_penalties=0, s_final_wss=[0]*2):
+    def __init__(self, c1_goals=0, c2_goals=0, c1_penalties=0, c2_penalties=0, s_final_winners=[0]*2):
         """
         Initializes the final round match data.
 
@@ -17,13 +17,13 @@ class FinalRound:
         c2_goals (int): Goals scored by team 2 in normal time.
         c1_penalties (int): Penalty goals by team 1 (if any).
         c2_penalties (int): Penalty goals by team 2 (if any).
-        s_final_wss (list): List containing names of the two finalist teams.
+        s_final_winners (list): List containing names of the two finalist teams.
         """
         self.c1_goals = c1_goals
         self.c2_goals = c2_goals
         self.c1_penalties = c1_penalties
         self.c2_penalties = c2_penalties
-        self.s_final_wss = [s_final_wss[0], s_final_wss[1]]
+        self.s_final_winners = [s_final_winners[0], s_final_winners[1]]
 
     def round_1_result(self):
         """
@@ -34,30 +34,30 @@ class FinalRound:
 
         # If goals are tied, decide by penalties
         if self.c1_goals == self.c2_goals:
-            print(self.s_final_wss[0], self.c1_goals, f"({self.c1_penalties})")
-            print(self.s_final_wss[1], self.c2_goals, f"({self.c2_penalties})\n")
+            print(self.s_final_winners[0], self.c1_goals, f"({self.c1_penalties})")
+            print(self.s_final_winners[1], self.c2_goals, f"({self.c2_penalties})\n")
 
             # Check if penalty scores are also tied (invalid)
             if self.c1_penalties == self.c2_penalties:
                 print("Invalid result, please restart")
             elif self.c1_penalties > self.c2_penalties:
-                print("CHAMPION:", self.s_final_wss[0])
-                print("Sub-champion:", self.s_final_wss[1])
+                print("CHAMPION:", self.s_final_winners[0])
+                print("Sub-champion:", self.s_final_winners[1])
             else:
-                print("CHAMPION:", self.s_final_wss[1])
-                print("Sub-champion:", self.s_final_wss[0])
+                print("CHAMPION:", self.s_final_winners[1])
+                print("Sub-champion:", self.s_final_winners[0])
 
         # If not tied, determine winner by regular goals
         else:
-            print(self.s_final_wss[0], self.c1_goals)
-            print(self.s_final_wss[1], self.c2_goals, "\n")
+            print(self.s_final_winners[0], self.c1_goals)
+            print(self.s_final_winners[1], self.c2_goals, "\n")
 
             if self.c1_goals > self.c2_goals:
-                print("CHAMPION:", self.s_final_wss[0])
-                print("Sub-champion:", self.s_final_wss[1])
+                print("CHAMPION:", self.s_final_winners[0])
+                print("Sub-champion:", self.s_final_winners[1])
             else:
-                print("CHAMPION:", self.s_final_wss[1])
-                print("Sub-champion:", self.s_final_wss[0])
+                print("CHAMPION:", self.s_final_winners[1])
+                print("Sub-champion:", self.s_final_winners[0])
 
     def insert_scores_final_round(self, s_winners):
         """
