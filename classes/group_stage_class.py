@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import random
-from team_class import TeamClass, push_data_team
+from classes.team_class import TeamClass, push_data_team
 
 class GroupStage:
     #group structure <<dict of group with teamObjects>> key=group_name : value= {key=country: value=teamObject } 
